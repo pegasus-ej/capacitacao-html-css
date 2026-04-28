@@ -1,0 +1,77 @@
+body {
+    background-color: rgb(20, 77, 20);
+}
+#titulo {
+    text-align: center; ; 
+    font-size: 45px
+}
+
+#titulo2 {
+   text-align: center;
+    font-size: 35px;
+}
+
+#titulo3 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.hr1{
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
+}
+
+.paragrafo {
+    font-size: 25px;
+}
+
+ul {
+    font-size: 20px;
+}
+
+#foto1 {
+   height: 400px;
+   width: 300px;
+   border: 3px solid black;
+}
+
+#video1 {
+    height: 400px;
+    width: 600px;
+}
+
+#rock{
+   color: blue;
+}
+
+#rock:visited{
+    color: rgb(170, 47, 17);
+}
+
+#rock:hover{
+    color: rgb(38, 162, 211);
+}
+
+#rock:active{
+    color: rgb(131, 151, 14);
+}
+
+li:nth-child(3){
+    color: rgb(76, 188, 223);
+}
+
+li:nth-child(4){
+    color: rgb(26, 153, 192);
+}
+
+li:nth-child(1){
+    color: rgb(22, 128, 160);
+}
+
+li:nth-child(2){
+    color: rgb(28, 173, 192);
+}
+
+li:nth-child(1)::after{
+   content: "💀";
+}
