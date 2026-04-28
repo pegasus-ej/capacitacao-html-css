@@ -1,7 +1,15 @@
 /* 
+    * Muito bem organizado o css e utilizando a ideia de usar um arquivo separado.
+*/
+
+/* 
    TABLET (até 1024px)
 */
 @media (max-width: 1024px) {
+
+    /* 
+        ? Isto é questão de layout, mas para tablet já possível colocar uma coluna de pelo menos 2 no grid.
+    */
 
     .header {
         flex-direction: column;

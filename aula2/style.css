@@ -1,8 +1,13 @@
+/* 
+    * Uma sugestão, nos seus 3 ids de titulo, você repetiu a mesma declaração: text-align: center;
+    * Isso é uma má prática, o certo seria selecionar a tag pelo seletor de tag ou classe e adicionar esta declaração, evitando assim repetições.
+*/
+
 body {
     background-color: rgb(20, 77, 20);
 }
 #titulo {
-    text-align: center; ; 
+    text-align: center;
     font-size: 45px
 }
 
