@@ -93,6 +93,14 @@ nav a {
     border-radius: 10px;
 }
 
+/* 
+  * Responsividade correta, bem organizada
+
+  * Sei que tem pouco codigo, mas uma boa prática é colocar em um arquivo separado, mas existem vários jeitos de organização
+
+  * Seria legal ter exporado a responsividade para tablet também.
+*/
+
 /*Responsividade para celulares*/
 @media(max-width: 768px){
 

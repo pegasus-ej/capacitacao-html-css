@@ -1,3 +1,11 @@
+/* 
+    * Seria legar ter explorados valores maiores para ver funcionando melhor
+
+    * Uma observação, como os valores de margin e padding são todos iguais, uma boa prática é usar um seletor mais genérico para evitar repetição.
+
+    * Outra observação, você separou a cor da borda do comando border, porém o border já um atalho para o comando -> border: tipo cor px
+*/
+
 #h11{
     display: inline;
     border: solid 2px;

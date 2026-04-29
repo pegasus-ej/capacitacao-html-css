@@ -1,3 +1,12 @@
+/* 
+  * CSS bem organizado!
+  * Flex e Grid corretos
+
+  * Uma observação é tomar cuidado com a propriedade width com valores absolutos, como px, pois isso quebra muito layout
+  * Como foi definido um tamanho de coluna no grid, não é necessário um tamnho no filho, já que ele ocupará todo aquele tamanho.
+  * Ao colocar um width: 500px em uma coluna 200px, irá estorar.
+*/
+
 header{
     display: flex;
 
@@ -55,7 +64,8 @@ nav a {
 
   padding: 15px;
 
-  width: 500px;
+  /* ! Cuidado com isso */
+  /* width: 500px;  */
 
   display: flex;
 
