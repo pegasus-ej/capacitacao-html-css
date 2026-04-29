@@ -1,0 +1,40 @@
+body{
+    background-color:rgb(41, 41, 41);
+    font-family: sans-serif;
+}
+
+h1{
+    color:aliceblue;
+    font-size: 50px;
+}
+
+p{
+    color:aliceblue;
+    font-size: 20px;
+    text-align: justify;
+}
+
+h3{
+    color:aliceblue;
+    font-size: 30px;
+}
+
+ul{
+    color:aliceblue;
+    font-size: 20px;
+}
+
+a{
+    color:rgb(116, 172, 153);
+    font-size: 20px;
+}
+
+a:hover{
+    color:rgb(42, 179, 243);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+img{
+    border-color: aliceblue;
+}

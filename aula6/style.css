@@ -1,0 +1,55 @@
+#h11{
+    display: inline;
+    border: solid 2px;
+    margin: 2px;
+    padding:2px;
+    border-color: cyan;
+}
+
+#p1{
+    display: inline;
+    border: solid 2px;
+    margin: 2px;
+    padding:2px;
+    border-color: red;
+}
+
+#p2{
+    display: inline;
+    border: solid 2px;
+    margin: 2px;
+    padding:2px;
+    border-color: blue;
+}
+
+#p3{
+    display: inline;
+    border: solid 2px;
+    margin: 2px;
+    padding:2px;
+    border-color: purple;
+}
+
+#p4{
+    display: inline;
+    border: solid 2px;
+    margin: 2px;
+    padding:2px;
+    border-color: yellow;
+}
+
+#a1{
+    display: inline;
+    border: solid 2px;
+    margin: 2px;
+    padding:2px;
+    border-color: green;
+}
+
+#a2{
+    display: inline;
+    border: solid 2px;
+    margin: 2px;
+    padding:2px;
+    border-color: orange;
+}
