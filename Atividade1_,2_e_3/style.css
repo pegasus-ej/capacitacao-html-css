@@ -1,3 +1,11 @@
+/* 
+    * Muito bom o CSS, seguindo o fluxo do HTML
+
+    * Faltou utilizar um pseudo-elemento
+
+    * Além disso, os id's não estão com nomes descritivos, isso é uma má prática
+*/
+
 * {
     margin: 15px;
     padding: 15px;
@@ -11,12 +19,14 @@ body {
     width: auto;
     text-align: left;
 }  
+
 .imagem_de_perfil {
     border-radius: 50%;
 }
+
 a {
     color: blue; 
-    }
+}
 
 a:hover {
     color: orangered;
@@ -26,6 +36,7 @@ a:hover {
 a:focus {
     color: purple;
 }
+
 .paragrafo {
     background-color: white;
     border: 2px solid black;
@@ -33,6 +44,7 @@ a:focus {
     width: auto;
     height: auto;
 }
+
 #k0 {
     background-color: white;
     border: 2px solid black;
@@ -40,18 +52,22 @@ a:focus {
     width: auto;
     height: auto;
 }
+
 #k1 {
     font-size: 20px;
     color: black;
 }
+
 #k2 {
     font-size: 18px;
 }
+
 #k3 > ol {
     font-size: 18px;
     color: blue;
-    }
+}
+
 #k4 {
     font-size: 18px;
     color: red;
-    }
+}
