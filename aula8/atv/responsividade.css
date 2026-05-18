@@ -1,0 +1,42 @@
+@media (max-width: 768px) 
+{
+    header 
+    {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav ul 
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .produtos 
+    {
+        grid-template-columns: repeat(2 , 1fr);
+    }
+}
+
+@media (max-width: 480px) 
+{
+    .produtos 
+    {
+        grid-template-columns: 1fr;
+    }
+
+    header 
+    {
+        padding: 20px;
+    }
+
+    .logo 
+    {
+        font-size: 20px;
+    }
+
+    .btn 
+    {
+        width: 100%;
+    }
+}

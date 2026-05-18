@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Alunos</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        form {
+            width: 60%;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        fieldset {
+            border: none;
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        .inline {
+            width: auto;
+            margin-right: 10px;
+        }
+
+        .btn {
+            margin-top: 15px;
+            padding: 10px;
+            border: none;
+            background-color: #2c3e50;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .btn:hover {
+            background-color: #34495e;
+        }
+    </style>
+</head>
+
+<body>
+
+<h1>Cadastro de Aluno</h1>
+
+<form>
+
+    <fieldset>
+        <legend><strong>Dados Pessoais</strong></legend>
+
+        <label>Nome completo</label>
+        <input type="text" placeholder="Digite seu nome" required>
+
+        <label>Email</label>
+        <input type="email" placeholder="exemplo@email.com" required>
+
+        <label>Senha</label>
+        <input type="password" required>
+
+        <label>Data de nascimento</label>
+        <input type="date">
+
+        <label>Telefone</label>
+        <input type="tel" placeholder="(00) 00000-0000">
+
+    </fieldset>
+
+    <fieldset>
+        <legend><strong>Informações Acadêmicas</strong></legend>
+
+        <label>Curso</label>
+        <select>
+            <option>Ciência da Computação</option>
+            <option>Biologia</option>
+            <option>Engenharia</option>
+            <option>Administração</option>
+        </select>
+
+        <label>Turno</label>
+        <input type="radio" name="turno" class="inline"> Manhã
+        <input type="radio" name="turno" class="inline"> Tarde
+        <input type="radio" name="turno" class="inline"> Noite
+
+        <label>Disciplinas de interesse</label>
+        <input type="checkbox" class="inline"> Programação
+        <input type="checkbox" class="inline"> Matemática
+        <input type="checkbox" class="inline"> Física
+
+    </fieldset>
+
+    <fieldset>
+        <legend><strong>Outras Informações</strong></legend>
+
+        <label>Upload de documento</label>
+        <input type="file">
+
+        <label>Cor favorita</label>
+        <input type="color">
+
+        <label>Nível de satisfação com o curso</label>
+        <input type="range" min="0" max="10">
+
+        <label>Observações</label>
+        <textarea rows="4" placeholder="Digite algo..."></textarea>
+    </fieldset>
+
+    <button class="btn" type="submit">Cadastrar</button>
+    <button class="btn" type="reset">Limpar</button>
+
+</form>
+
+</body>
+</html>
